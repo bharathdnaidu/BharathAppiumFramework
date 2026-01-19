@@ -1,0 +1,4 @@
+appId: io.appium.android.apis
+---
+- launchApp
+- tapOn: "Views"

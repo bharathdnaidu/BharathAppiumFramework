@@ -1,0 +1,13 @@
+<suite name="Appium Suite" parallel="methods" data-provider-thread-count="2">
+    <listeners>
+        <listener class-name="com.appium.Listeners.TestListener" />
+    </listeners>
+
+    <test name="Tests" >
+               <classes >
+            <class name="com.appium.FirstTest" />
+        </classes>
+    </test>
+
+
+</suite>
