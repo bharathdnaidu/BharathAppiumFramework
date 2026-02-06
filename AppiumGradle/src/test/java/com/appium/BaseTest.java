@@ -31,7 +31,7 @@ public class BaseTest {
         for(int i=0;i<deviceList.size();i++)
         {
             data[i][0]=deviceList.get(i);
-            data[i][1]=8200;
+            data[i][1]=8200+i;
         }
         return data;
     }
